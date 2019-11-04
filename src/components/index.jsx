@@ -5,10 +5,11 @@ class HomepageImage extends Component{
   render(){
     const url = 'https://cdn.filestackcontent.com/XYrHCaFGRSaq0EPKY1S6';
     return (
-      <div>
+      <div className="body">
         <Navigation/>
-        <img src={url} style={{width: 650}} alt='Golden Gate Bridge' />
-        <a href="/profile">profile</a>
+        <div  className="homepage">
+          <img src={url} alt='Golden Gate Bridge' />
+        </div>
         <Footer/>
       </div>
     );

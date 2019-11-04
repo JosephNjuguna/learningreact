@@ -3,12 +3,12 @@ import { Navigation, Footer } from './';
 
 function Blog(){
   return(
-    <div>
+    <body>
       <Navigation/>
       <p>lorem ipsum is displayed here will it show actually.</p>
-      <a href="/">link</a>
+      <a href="/">home</a>
       <Footer/>
-    </div>
+    </body>
   );
 }
 export default Blog;

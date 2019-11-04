@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <footer className="footerNav">
         <p align="center">Learning React in</p>
         <p align="center">2019.</p>
-      </div>
+      </footer>
     )
   }
 }
