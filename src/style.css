@@ -1,0 +1,71 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+}
+.navigation .nav1{
+  flex: 1;
+}
+
+.navigation .nav2{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 4%;
+}
+
+.navigation li{
+  color: blue;
+  list-style: none;
+  margin-right: 1%;
+}
+
+.footerNav{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.signupForm{
+  display: flex;
+  flex-direction: column;
+}
+.Authform{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1%;
+}
+.Authform input{
+  margin: 2% 0;
+  padding: 4%;
+  border-radius: 4px;
+  border-style: solid;
+}
+.Authform button{
+  color: white;
+  padding: 2%;
+  background-color: blue;
+  width: 50%;
+  align-self: center;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 6px;
+}
+.homepage{
+  display: flex;
+  flex-direction: row;
+  padding: 4%;
+  min-height: 60vh;
+}
+.homepage img{
+  margin: auto;
+  width: 80%;
+  border-radius: 6px;
+}
