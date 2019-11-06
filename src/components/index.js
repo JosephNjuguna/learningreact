@@ -4,3 +4,5 @@ export { default as Navigation } from './_navigation.jsx';
 export { default as Footer }  from './_footer.jsx';
 export { default as Signup } from './signup.jsx';
 export { default as Signin } from './signin.jsx';
+export { default as SignInWith } from './SignInWith.jsx';
+export { default as Editor } from './editor.jsx'; 
